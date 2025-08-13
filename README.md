@@ -19,12 +19,13 @@ Selasa 12 Agustus 2025
   2. Lalu aktifkan interface wlan jika interfacenya mati, **wireless > WiFi interface**  
      Klik interfacenya satu kali saja lalu tekan checklist (V) diatas untuk menyalakan. Jika sudah menyala, interfacenya tidak akan berwarna abu-abu.  
   3. Setelah itu double click interface wlan1 nya, pindah ke tab **wireless** lalu ganti modenya menjadi station,  
-     **mode=station**  
-  4. Masih di window wireless, di sebelah kanan ada **scan**, masuk kesitu, lalu **start**  
+     **mode=station**
+     ![w](intwlan.PNG)
+  5. Masih di window wireless, di sebelah kanan ada **scan**, masuk kesitu, lalu **start**  
      ![r](iyk.PNG)  
-  5. Cari AP yang akan di sambungkan dengan Router, klik 1 kali kalu klik connect. Jika sudah connect, nanti akan muncul SSID AP nya dibagian SSID  
+  6. Cari AP yang akan di sambungkan dengan Router, klik 1 kali kalu klik connect. Jika sudah connect, nanti akan muncul SSID AP nya dibagian SSID  
      ![e](lagih.PNG)  
-  6. Tambahkan DHCP Client untuk wlan1. Pastikan statusnya bound.  
+  7. Tambahkan DHCP Client untuk wlan1. Pastikan statusnya bound.  
      ![i](bnd.PNG)  
   8. Sekarang tambahkan IP Address untuk ether2, **IP > Addresses > +**  
      Interface=ether2  
