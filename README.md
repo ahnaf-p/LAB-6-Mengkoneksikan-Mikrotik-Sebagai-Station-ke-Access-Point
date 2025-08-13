@@ -1,8 +1,6 @@
 # LAB 6 Mengkoneksikan Mikrotik Sebagai Station ke Access Point
 Selasa 12 Agustus 2025  
 
-  Mikrotik sebagai Station adalah  
-
 # Mengkoneksikan Mikrotik sebagai station ke access Point  
 ![tp](topol.png)
   1. Buat security Profilesnya, di **Wireless > Security Profiles** isi dengan,  
@@ -19,8 +17,8 @@ Selasa 12 Agustus 2025
   2. Lalu aktifkan interface wlan jika interfacenya mati, **wireless > WiFi interface**  
      Klik interfacenya satu kali saja lalu tekan checklist (V) diatas untuk menyalakan. Jika sudah menyala, interfacenya tidak akan berwarna abu-abu.  
   3. Setelah itu double click interface wlan1 nya, pindah ke tab **wireless** lalu ganti modenya menjadi station,  
-     **mode=station**
-     ![w](intwlan.PNG)
+     **mode=station**  
+     ![w](intwlan.PNG)  
   5. Masih di window wireless, di sebelah kanan ada **scan**, masuk kesitu, lalu **start**  
      ![r](iyk.PNG)  
   6. Cari AP yang akan di sambungkan dengan Router, klik 1 kali kalu klik connect. Jika sudah connect, nanti akan muncul SSID AP nya dibagian SSID  
@@ -35,5 +33,8 @@ Selasa 12 Agustus 2025
      ![c](asdfgh.PNG)  
   10. Lalu, setting IP di Client.  
      ![er](win.PNG)  
-  11. Jika sudah, cek koneksi dengan ping di CMD.
-     ![cmd](cmd.PNG)     
+  11. Jika sudah, cek koneksi dengan ping di CMD.  
+     ![cmd](cmd.PNG)
+
+# Kesimpulan
+  Mikrotik sebagai station untuk terkoneksi dengan Access Point merupakan solusi efektif untuk menghubungkan wireless network dan wired network. Mode station membuat Mikrotik berperan sebagai penerima sinyal WiFi, yang kemudian dapat didistribusikan kembali melalui port LAN.
